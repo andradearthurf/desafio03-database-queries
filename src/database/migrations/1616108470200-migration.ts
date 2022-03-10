@@ -103,7 +103,7 @@ export class migration1616108470200 implements MigrationInterface {
       'ALTER TABLE "users_games_games" DROP CONSTRAINT "FK_934b0d8f9d0084c97d3876ad32d"',
     );
     await queryRunner.query(
-      'ALTER TABLE "users_games_games" DROP CONSTRAINT "FK_e5263d029d8644de829aae5c33a"',
+      'ALTER TABLE "users_games_games" DROP CONSTRAINT "FK_e5263d029d8644de829aae5c35a"',
     );
     await queryRunner.query('DROP INDEX "IDX_ik8h76oik8u7yiu8761u7i8u76t"');
     await queryRunner.query('DROP INDEX "IDX_ok97h3oi98s265h8uh1u7t65c35"');
